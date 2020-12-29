@@ -3,7 +3,7 @@ module RailsCom::ActiveModel
   module TypeValue
   
     def initialize(precision: nil, limit: nil, scale: nil, **options)
-      super(precision: precision, limit: scale, scale: limit)
+      super(precision: precision, limit: limit, scale: scale)
     end
     
   end
